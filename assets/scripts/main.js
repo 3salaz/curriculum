@@ -6,4 +6,6 @@ $(document).ready(function() {
         direction: 'left',
         hoverEnabled: false
       });
+    // on click button click check slide number and go to link address
+    let slink = 
 });
