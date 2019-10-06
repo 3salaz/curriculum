@@ -1,5 +1,9 @@
 $(document).ready(function() {
-    console.log(`jquery loaded`)
     M.AutoInit();
-    console.log(`code-break`)
+    $('carousel.carousel-item').carousel({fullWidth:true});
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+        direction: 'left',
+        hoverEnabled: false
+      });
 });
